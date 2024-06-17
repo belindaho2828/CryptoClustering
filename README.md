@@ -51,6 +51,10 @@ PCA clustering showed two clusters much closer together, resulting in two far ou
 Original K-Means clustering had one far outlier, with cluster 1 potentially grouped with cluster 0 without significant difference.
 PCA made outliers in clusters 1 and 3 more distinct, justifying their inclusion in clusters 0 and 2, respectively.
 
-![elbow](https://github.com/belindaho2828/CryptoClustering/assets/155488822/3059a283-158d-4a67-9236-4e3399eaba04)
+### Elbow Curves ###
+![elbow](https://github.com/belindaho2828/CryptoClustering/assets/155488822/06b879c1-fe89-46f7-af08-a414d111ea98)
 
-![clusters](https://github.com/belindaho2828/CryptoClustering/assets/155488822/91b60844-ed4c-44f9-91d9-dc7bfd506143)
+### Clusters ###
+![clusters](https://github.com/belindaho2828/CryptoClustering/assets/155488822/39ca5895-1aa2-4b9b-bdc7-50912931c366)
+
+
