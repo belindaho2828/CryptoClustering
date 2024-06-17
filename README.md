@@ -25,10 +25,14 @@ PCA reduces data dimensions by transforming features into principal components, 
 Original Data: Used elbow method to find k=4.
 PCA Data: Reduced to three components, k=4.
 
+![elbow](https://github.com/belindaho2828/CryptoClustering/assets/155488822/06b879c1-fe89-46f7-af08-a414d111ea98)
+
 ## Analysis ##
 Elbow curves were similar for both methods.
 Clusters mostly matched, with minor differences.
 PCA clustering had two closer clusters and two far outliers. Original clustering had one far outlier, with potential cluster overlap.
+
+![clusters](https://github.com/belindaho2828/CryptoClustering/assets/155488822/39ca5895-1aa2-4b9b-bdc7-50912931c366)
 
 ## Data Preparation ##
 Used StandardScaler() to normalize data and then created a scaled DataFrame 
@@ -51,10 +55,5 @@ PCA clustering showed two clusters much closer together, resulting in two far ou
 Original K-Means clustering had one far outlier, with cluster 1 potentially grouped with cluster 0 without significant difference.
 PCA made outliers in clusters 1 and 3 more distinct, justifying their inclusion in clusters 0 and 2, respectively.
 
-### Elbow Curves ###
-![elbow](https://github.com/belindaho2828/CryptoClustering/assets/155488822/06b879c1-fe89-46f7-af08-a414d111ea98)
-
-### Clusters ###
-![clusters](https://github.com/belindaho2828/CryptoClustering/assets/155488822/39ca5895-1aa2-4b9b-bdc7-50912931c366)
 
 
