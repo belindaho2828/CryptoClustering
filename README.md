@@ -4,7 +4,7 @@ This project focuses on clustering cryptocurrencies using K-Means clustering. Th
 # Tools Used #
 <img width="476" alt="tools_used" src="https://github.com/belindaho2828/CryptoClustering/assets/155488822/9e1922ed-f1d5-4ecd-883c-94cb3a07a20a">
 
-Python: Primary programming language.
+Python: Primary programming language.<br/>
 pandas: Data manipulation and analysis.
 scikit-learn:
     StandardScaler: Data normalization.
