@@ -3,18 +3,19 @@ This project focuses on clustering cryptocurrencies using K-Means clustering. Th
 
 # Tools Used #
 Python: Primary programming language.
-
+![Python](https://github.com/belindaho2828/CryptoClustering/assets/155488822/464ffa29-6c11-4ee6-8bdc-47f16d2aec08)
 
 pandas: Data manipulation and analysis.
-
+![Pandas](https://github.com/belindaho2828/CryptoClustering/assets/155488822/5714a754-bebc-46be-860d-143a40a36ba2)
 
 scikit-learn:
     StandardScaler: Data normalization.
     Means: Clustering.
     PCA: Dimensionality reduction.
-
+    ![scikit-learn](https://github.com/belindaho2828/CryptoClustering/assets/155488822/3b3b70b2-bb75-4afc-8b97-57768388ed40)
 
 hvPlot: Interactive visualizations.
+![hvPlot](https://github.com/belindaho2828/CryptoClustering/assets/155488822/28fc22f5-fec2-4edf-b637-ad1925be722b)
 
 
 
@@ -49,8 +50,13 @@ Clusters were mostly the same, with slight variations:
 Cluster 0: 26 different datapoints
 Cluster 2: 13 different datapoints
 Cluster 3: 1 different datapoint
+<img width="612" alt="crosstab" src="https://github.com/belindaho2828/CryptoClustering/assets/155488822/b811ad33-fc17-47f9-8762-4482a447ca87">
 
 ### Optimization Impact: ###
 PCA clustering showed two clusters much closer together, resulting in two far outliers.
 Original K-Means clustering had one far outlier, with cluster 1 potentially grouped with cluster 0 without significant difference.
 PCA made outliers in clusters 1 and 3 more distinct, justifying their inclusion in clusters 0 and 2, respectively.
+
+![elbow](https://github.com/belindaho2828/CryptoClustering/assets/155488822/3059a283-158d-4a67-9236-4e3399eaba04)
+
+![clusters](https://github.com/belindaho2828/CryptoClustering/assets/155488822/91b60844-ed4c-44f9-91d9-dc7bfd506143)
