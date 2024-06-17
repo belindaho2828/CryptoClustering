@@ -2,21 +2,15 @@
 This project focuses on clustering cryptocurrencies using K-Means clustering. The analysis involves scaling the data, determining the optimal number of clusters, and visualizing the clusters. Additionally, Principal Component Analysis (PCA) is applied to reduce the dimensionality of the data and observe the impact on clustering results.
 
 # Tools Used #
+<img width="476" alt="tools_used" src="https://github.com/belindaho2828/CryptoClustering/assets/155488822/9e1922ed-f1d5-4ecd-883c-94cb3a07a20a">
+
 Python: Primary programming language.
-![Python](https://github.com/belindaho2828/CryptoClustering/assets/155488822/464ffa29-6c11-4ee6-8bdc-47f16d2aec08)
-
 pandas: Data manipulation and analysis.
-![Pandas](https://github.com/belindaho2828/CryptoClustering/assets/155488822/5714a754-bebc-46be-860d-143a40a36ba2)
-
 scikit-learn:
     StandardScaler: Data normalization.
     Means: Clustering.
     PCA: Dimensionality reduction.
-    ![scikit-learn](https://github.com/belindaho2828/CryptoClustering/assets/155488822/3b3b70b2-bb75-4afc-8b97-57768388ed40)
-
 hvPlot: Interactive visualizations.
-![hvPlot](https://github.com/belindaho2828/CryptoClustering/assets/155488822/28fc22f5-fec2-4edf-b637-ad1925be722b)
-
 
 
 # K-Means Clustering #
